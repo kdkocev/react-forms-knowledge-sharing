@@ -8,6 +8,7 @@ import MuiFieldsOnBlur from "pages/MuiFieldsOnBlur";
 import MuiFieldsOnChangeDebounce from "pages/MuiFieldsOnChangeDebounce";
 import MapExampleNoKey from "pages/MapExampleNoKey";
 import MapExampleNoKeyReorder from "pages/MapExampleNoKeyReorder";
+import MultipleFieldsNoMap from "pages/MultipleFieldsNoMap";
 
 const LocalRouter = () => {
   return (
@@ -30,6 +31,10 @@ const LocalRouter = () => {
         <Route
           path={URLS.MAP_EXAMPLE_NO_KEY_REORDER}
           element={<MapExampleNoKeyReorder />}
+        />
+        <Route
+          path={URLS.MULTIPLE_FIELDS_NO_MAP}
+          element={<MultipleFieldsNoMap />}
         />
       </Routes>
     </BrowserRouter>

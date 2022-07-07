@@ -28,7 +28,6 @@ const MapExampleNoKey = () => {
         <Stack spacing={2} sx={{ width: 600, margin: "auto", padding: 10 }}>
           {FIELDS.map((x, index) => (
             <MuiInput
-              key={index}
               label={`${x}-field`}
               variant="outlined"
               fullWidth
