@@ -34,7 +34,7 @@ const MuiFieldsUncontrolled = () => {
           <div>{formik.values.email}</div>
           <div>{formik.values.password}</div>
         </Stack>
-        <Stack spacing={2} sx={{ width: 600, margin: "auto" }}>
+        <Stack spacing={2} sx={{ width: 600, margin: "auto", padding: 10 }}>
           <MuiInput
             label="Email"
             variant="outlined"
